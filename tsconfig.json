@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+
+    "baseUrl": ".",
+    "rootDir": "packages",
+    "outDir": "dist",
+
+    "module": "esnext",
+    "target": "es2018",
+
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "importHelpers": true,
+    "lib": ["esnext"],
+    "skipLibCheck": true,
+
+    "sourceMap": true,
+    "declaration": true,
+
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+  },
+  "include": ["packages"],
+  "exclude": ["**/dist/**"]
+}
