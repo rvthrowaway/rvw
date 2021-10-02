@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="A minimalist review website" />
+    <title>Review The Minimalist Entrepreneur</title>
+    <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div>
+      <h1>The Minimalist Entrepreneur</h1>
+      <div class="product-rating">
+        <div class="rating-wrapper">
+          <p class="rating-stat">3.8</p>
+
+          <div class="icon-star-rating icon-star-product">
+            <span class="icon-star gray"></span>
+            <span class="icon-star"></span>
+            <span class="icon-star"></span>
+            <span class="icon-star"></span>
+            <span class="icon-star"></span>
+          </div>
+        </div>
+        <button id="addReview">Add review</button>
+      </div>
+    </div>
+    <hr />
+    <h2>Reviews</h2>
+    <div class="review-list">
+      <div class="review-wrapper">
+        <div class="icon-star-rating">
+          <span class="icon-star gray"></span>
+          <span class="icon-star"></span>
+          <span class="icon-star"></span>
+          <span class="icon-star"></span>
+          <span class="icon-star"></span>
+        </div>
+        <span class="review-text">
+          <b class="review-number">4</b>
+
+          ,&nbsp; book was full of fluff
+        </span>
+      </div>
+      <div class="review-wrapper">
+        <div class="icon-star-rating">
+          <span class="icon-star gray"></span>
+          <span class="icon-star gray"></span>
+          <span class="icon-star"></span>
+          <span class="icon-star"></span>
+          <span class="icon-star"></span>
+        </div>
+        <span class="review-text">
+          <b class="review-number">4</b>
+
+          ,&nbsp; book was fluff
+        </span>
+      </div>
+      <div class="review-wrapper">
+        <div class="icon-star-rating">
+          <span class="icon-star gray"></span>
+          <span class="icon-star"></span>
+          <span class="icon-star"></span>
+          <span class="icon-star"></span>
+          <span class="icon-star"></span>
+        </div>
+        <span class="review-text">
+          <b class="review-number">4</b>
+
+          ,&nbsp; book was amazing
+        </span>
+      </div>
+    </div>
+<!-- Add Review Modal -->
+    <div id="reviewModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div>
+          <h1 class="modal-title">What's your rating?</h1>
+          <div>
+            <label class="label-title" for="stars">Rating</label>
+            <div class="icon-star-rating icon-star-modal">
+              <input type="radio" name="stars" id="star-a" value="5" />
+              <label for="star-a"></label>
+
+              <input type="radio" name="stars" id="star-b" value="4" />
+              <label for="star-b"></label>
+
+              <input type="radio" name="stars" id="star-c" value="3" />
+              <label for="star-c"></label>
+
+              <input type="radio" name="stars" id="star-d" value="2" />
+              <label for="star-d"></label>
+
+              <input type="radio" name="stars" id="star-e" value="1" />
+              <label for="star-e"></label>
+            </div>
+          </div>
+          <div class="submit-review-wrapper">
+            <label class="label-title" for="text">Review</label>
+            <textarea
+              name="textarea"
+              rows="1"
+              maxlength="500"
+              resize="none"
+              placeholder="Start typing..."
+              required
+              cols="50"
+            ></textarea>
+          </div>
+          <button type="button">Submit review</button>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/modal.js"></script>
+    <script defer src="assets/js/textarea-auto-resize.js"></script>
+  </body>
+</html>
