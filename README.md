@@ -12,8 +12,8 @@ No frameworks, build tools, no libraries.
 Basically a simple SPA in index.html with a single page app.
 
 List of components:
-Body
-Modal
+- Body
+- Modal
 
 File structure
 
@@ -30,7 +30,17 @@ Deployment:
 
 ### Backend v1
 
-API for Products and it's Reviews, built with GraphQL Modules,Express, and Apollo.
+API for Products and it's Reviews, built with TypeScript, NodeJS and GraphQL
+
+#### Stack
+
+- TypeScript
+- Postgres
+- [TypeORM](https://typeorm.io/)
+- TypeGraphQL
+- [GraphQL Modules](https://www.graphql-modules.com/docs)
+- Express
+- Apollo Server
 
 #### Instructions to run the server:
 
