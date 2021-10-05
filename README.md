@@ -7,7 +7,7 @@ App for reviewing managing products and it's reviews.
 ### Frontend v1
 
 Vanilla JS App
-No frameworks, build tools, no libraries.
+No frameworks, build tools, nor libraries. just plain old html+css+js.
 
 Basically a simple SPA in index.html with a single page app.
 
@@ -16,13 +16,13 @@ List of components:
 - Modal
 
 File structure
-
-- index.html (main/ entry file) It's just an html, double click to preview in your browser =)
-- assets/ # Contains all assets like images, js, css, etc.
-- assets/js/ # Contains all JS files
-- assets/css/ # Contains all CSS files
-- assets/fonts/ # Contains all fonts (Roboto, and icon-star made w/ icomoon for star icon)
-
+```
+- ./index.html
+- ./assets/js/modal.js    # Javascript for the modal component
+- ./assets/js/textarea.js # Javascript that resizes review modal's textarea automatically.
+- ./assets/css/   # Contains all CSS files
+- ./assets/fonts/ # Using local fonts to avoid FUOC with Google Fonts
+```
 Deployment:
 
 - As easy as it gets with a static deployment, I just use vercel -cli.
@@ -37,10 +37,10 @@ API for Products and it's Reviews, built with TypeScript, NodeJS and GraphQL
 - TypeScript
 - Postgres
 - [TypeORM](https://typeorm.io/)
+- [Apollo Server](https://www.apollographql.com/)
 - TypeGraphQL
 - [GraphQL Modules](https://www.graphql-modules.com/docs)
 - Express
-- Apollo Server
 
 #### Instructions to run the server:
 
