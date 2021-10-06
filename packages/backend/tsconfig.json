@@ -3,7 +3,7 @@
     "incremental": true,
 
     "baseUrl": ".",
-    "rootDir": "packages",
+    "rootDir": "./src",
     "outDir": "dist",
 
     "module": "esnext",

@@ -19,9 +19,13 @@ File structure
 ```
 - ./index.html
 - ./assets/js/modal.js    # Javascript for the modal component
-- ./assets/js/textarea.js # Javascript that resizes review modal's textarea automatically.
-- ./assets/css/   # Contains all CSS files
-- ./assets/fonts/ # Using local fonts to avoid FUOC with Google Fonts
+- ./assets/js/textarea.js # Auto-resize review textarea.
+- ./assets/css/           # Contains all CSS files
+- ./assets/css/main.css   # Imports all other css files
+- ./assets/css/app.css    # app css styles
+- ./assets/css/modal.css  # Modal's stylesheets
+- ./assets/css/fonts.css  # Import font faces into css
+- ./assets/fonts/         # Using local fonts to avoid FUOC
 ```
 Deployment:
 
